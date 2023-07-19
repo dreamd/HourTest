@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "a1377202-0247-4e8c-922f-17d81c87956d",
+		"name": "HourTest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "hour/availableList",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{}"
+				},
+				"url": {
+					"raw": "http://localhost:8000/hour/availableList",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"hour",
+						"availableList"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

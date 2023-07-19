@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script type="text/javascript" src="share/common.js" ></script>
+    <script type="text/javascript" src="js/main.js" ></script>
+    <title>Hour Test Page</title>
+</head>
+
+<body>
+    <header>
+        <h1>Hour Test Page</h1>
+    </header>
+    <main>
+        <div id="loading">
+            <h2>Content is loading.</h2>
+        </div>
+        <div id="content">
+            <p class="reminder">Valid Hour is <span id="valid-from"></span>:00 to <span id="valid-to"></span>:00</p>
+            <section>
+                <div class="label">Hour</div>
+                <div class="value">
+                    <select name="from" id="from"></select>
+                    <span>-</span>
+                    <select name="to" id="to">
+                        <option></option>
+                    </select>
+                </div>
+            </section>
+            <section>
+                <button id="submit" onclick="submit()">Submit</button>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
